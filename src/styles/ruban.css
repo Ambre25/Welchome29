@@ -1,0 +1,26 @@
+.ribbon-wrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    text-align: right;
+  }
+  
+  .ribbon {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: #ebb134;
+    position: absolute;
+    top: 19px;
+    right: -21px;
+  }
+  

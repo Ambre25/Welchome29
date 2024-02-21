@@ -1,0 +1,12 @@
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+.right-icons {
+    position: absolute;
+    right: 0;
+    color: black;
+    display: flex;
+    gap: 30px;
+}

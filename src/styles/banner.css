@@ -1,0 +1,25 @@
+.banner-user {
+    height: 175px;
+}
+
+.banner-user-elem {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-user-elem .banner-user-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    top: 30%;
+}
+
+.banner-anim-elem .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
