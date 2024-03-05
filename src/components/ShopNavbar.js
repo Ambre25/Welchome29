@@ -33,7 +33,7 @@ export default function ShopNavBar() {
     <AppBar position="static" style={{ backgroundColor: "#116A7B" }}>
         <Container maxWidth="xl">
             <Toolbar disableGutters>
-                <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-start', alignItems: 'center' }}>
                     <IconButton
                         size="large"
                         aria-label="account of current user"
@@ -41,9 +41,12 @@ export default function ShopNavBar() {
                         aria-haspopup="true"
                         onClick={handleOpenNavMenu}
                         color="inherit"
+                        sx={{ display: { xs: 'flex', md: 'none' }, marginRight: 'auto' }}
                     >
                         <MenuIcon />
                     </IconButton>
+                    <Typography variant='h6' component='div' sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'center', flex: 1 }}>LE SHOP</Typography>
+                    <Box sx={{ display: { xs: 'flex', md: 'none' }, width: 48, marginRight: 'auto' }}></Box>
                     <Menu
                         id="menu-appbar"
                         anchorEl={anchorElNav}
